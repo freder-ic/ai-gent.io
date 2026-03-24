@@ -1,0 +1,34 @@
+---
+title: ai-gent
+description: Open-source AI agent framework. Build, deploy, and run autonomous agents with local or cloud LLMs.
+template: splash
+hero:
+  tagline: Build autonomous AI agents that use tools, reason about goals, and get things done. Open source. Run anywhere.
+  actions:
+    - text: Get Started
+      link: /guides/introduction/
+      icon: right-arrow
+    - text: View on GitHub
+      link: https://github.com/fredericklingen/ai-gent
+      icon: external
+      variant: minimal
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+## Why ai-gent?
+
+<CardGrid stagger>
+	<Card title="Local-First" icon="laptop">
+		Run agents on your own hardware with Ollama, LiteLLM, or any OpenAI-compatible API. No cloud lock-in.
+	</Card>
+	<Card title="Tool-Native" icon="setting">
+		Agents call tools, read files, query APIs, and execute code. Define tools in Python or TypeScript.
+	</Card>
+	<Card title="Production-Ready" icon="rocket">
+		Built-in routing, fallbacks, cost tracking, and monitoring. From prototype to production without rewrites.
+	</Card>
+	<Card title="Open Source" icon="open-book">
+		MIT licensed. Self-host, modify, contribute. Community-driven development.
+	</Card>
+</CardGrid>
